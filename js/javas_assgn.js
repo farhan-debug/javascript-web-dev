@@ -16,7 +16,6 @@
     }
     function startshow(){
         var x= document.getElementById("interval").value;
-        x*=1000;
         console.log(x);
         setInterval(slideshow,x);
     }
